@@ -9,6 +9,7 @@ const destinationSchema = new Schema({
   },
   arrival: {
     type: Date,
+    default: new Date ,
     required: true
   }
 }, {
